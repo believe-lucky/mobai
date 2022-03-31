@@ -14,9 +14,22 @@
       "list": [
         {
           "name": "",
-          "pathName": "pages/index/index",
+          "pathName": "pages/case/case",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null,
+          "partialCompile": {
+            "enabled": false,
+            "pages": [
+              "pages/ceshi/ceshi",
+              "pages/my/my"
+            ]
+          }
         }
       ]
     }

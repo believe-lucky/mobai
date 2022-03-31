@@ -1,2 +1,2 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<button type="warn">我的主页</button>

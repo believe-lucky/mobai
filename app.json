@@ -3,7 +3,7 @@
     "pages/index/index",
     "pages/my/my",
     "pages/logs/logs",
-    "pages/ceshi/ceshi"
+    "pages/case/case"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -30,7 +30,7 @@
         "selectedIconPath": "assets/images/search_light.png"
       },
       {
-        "pagePath": "pages/ceshi/ceshi",
+        "pagePath": "pages/case/case",
         "text": "测试",
         "iconPath": "assets/images/exit.png",
         "selectedIconPath": "assets/images/exit_light.png"

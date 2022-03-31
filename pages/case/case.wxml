@@ -1,0 +1,14 @@
+<!--pages/case/case.wxml-->
+<text>pages/case/case.wxml</text>
+<view>你的世界</view>
+
+<button type="primary">canIUse</button>
+
+<view>
+  <map class="map">
+    <cover-view slot="callout">
+      <cover-view marker-id="1"></cover-view>
+      <cover-view marker-id="2"></cover-view>
+    </cover-view>
+ </map>
+</view>
