@@ -1,0 +1,35 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "query": "",
+          "scene": 1001,
+          "partialCompile": {
+            "enabled": false,
+            "pages": [
+              "pages/index/index"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

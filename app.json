@@ -19,19 +19,27 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "assets/images/home.png",
+        "selectedIconPath": "assets/images/home_light.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "日志",
+        "iconPath": "assets/images/search.png",
+        "selectedIconPath": "assets/images/seerch_light.png"
       },
       {
         "pagePath": "pages/ceshi/ceshi",
-        "text": "测试"
+        "text": "测试",
+        "iconPath": "assets/images/exit.png",
+        "selectedIconPath": "assets/images/exit_light.png"
       },
       {
         "pagePath": "pages/my/my",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "assets/images/my.png",
+        "selectedIconPath": "assets/images/my_light.png"
       }
     ]
   },
