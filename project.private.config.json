@@ -14,20 +14,9 @@
       "list": [
         {
           "name": "",
-          "pathName": "pages/home/home",
+          "pathName": "pages/index/index",
           "query": "",
           "scene": null
-        },
-        {
-          "name": "",
-          "query": "",
-          "scene": 1001,
-          "partialCompile": {
-            "enabled": false,
-            "pages": [
-              "pages/index/index"
-            ]
-          }
         }
       ]
     }

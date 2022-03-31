@@ -27,7 +27,7 @@
         "pagePath": "pages/logs/logs",
         "text": "日志",
         "iconPath": "assets/images/search.png",
-        "selectedIconPath": "assets/images/seerch_light.png"
+        "selectedIconPath": "assets/images/search_light.png"
       },
       {
         "pagePath": "pages/ceshi/ceshi",

@@ -1,0 +1,32 @@
+<!--
+此文件为开发者工具生成，生成时间: 2022/3/31 下午3:15:10
+使用方法：
+在 E:\祁亮亮\learn\小程序\mobai\pages\index\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 E:\祁亮亮\learn\小程序\mobai\pages\index\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="container">
+      <view class="userinfo">
+        <view class="userinfo-avatar">
+          <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <open-data type="userNickName"></open-data>
+      </view>
+      <view class="usermotto">
+        <text class="user-motto sk-transparent sk-text-14-2857-539 sk-text" decode="true">Hello World</text>
+      </view>
+    </view>
+  </view>
+</template>
