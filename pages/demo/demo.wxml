@@ -1,3 +1,24 @@
-<!--pages/demo/demo.wxml-->
-<text>pages/demo/demo.wxml</text>
+<van-search
+  value="{{ value }}"
+  shape="round"
+  background="#4fc08d"
+  placeholder="请输入搜索关键词"
+/>
 <video class="video" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/812358b69886e576c66a01f1f00affe9.mp4"></video>
+
+<view wx:for="{{list}}" wx:key="index">
+  {{item.name}} ----{{item.age}}
+</view>
+
+<view wx:if="{{isShow}}">1111111111</view>
+<view wx:else>888888888888888888888</view>
+<view>------------------------------------</view>
+<!-- hidden 为true 不展示   为false 展示 -->
+<view hidden="{{isShow}}">22222222222222</view>
+<van-button type="primary">按钮</van-button>
+
+<van-submit-bar
+  price="{{ 3050 }}"
+  button-text="提交订单"
+  bind:submit="onSubmit"
+/>
