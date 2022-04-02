@@ -1,0 +1,5 @@
+/* pages/demo/demo.wxss */
+.video{
+  margin: 10px auto;
+  display: flex;
+}

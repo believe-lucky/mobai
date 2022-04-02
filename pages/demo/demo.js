@@ -1,31 +1,13 @@
-// pages/my/my.js
+// pages/demo/demo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    nickName:'',
-    name:'张三'
+
   },
-  handleAuth(){
-    wx.getUserProfile({
-      desc: '登录授权说明',
-      success:res=>{
-        console.log(res,'成功info');
-        wx.setStorageSync('token', res.userInfo)
-        this.setData({
-          nickName:res.userInfo.nickName
-        })
-      }
-    })
-    wx.getUserInfo({
-      lang: "zh_CN",
-      success:res=>{
-        console.log(res,'userInfo');
-      }
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -62,5 +62,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+   // 事件处理函数
+   bindViewTap() {
+    wx.switchTab({
+      url: '../my/my'
+    })
+  },
+  bindTo(){
+    wx.navigateTo({
+      url: '../demo/demo',
+    })
   }
 })

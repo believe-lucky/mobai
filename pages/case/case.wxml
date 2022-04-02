@@ -2,7 +2,10 @@
 <text>pages/case/case.wxml</text>
 <view>你的世界</view>
 
-<button type="primary">canIUse</button>
+<button type="primary" bindtap="bindViewTap">native</button>
+<view>------</view>
+<button type="warn" bindtap="bindTo">bindTo</button>
+
 
 <view>
   <map class="map">
