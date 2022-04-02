@@ -30,6 +30,12 @@
               "pages/my/my"
             ]
           }
+        },
+        {
+          "name": "",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "scene": null
         }
       ]
     }
